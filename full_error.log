@@ -1,0 +1,66 @@
+0:00:25.264560000 10388 000002DCDCA7F6C0 INFO         d3d11debuglayer gstd3d11window.cpp:315:gst_d3d11_window_on_resize_default:<d3d11device2> D3D11InfoQueue: Create ID3D11Fence: Name="unnamed", Addr=0x000002DCF23956A0, ExtRef=1, IntRef=0
+0:00:25.264855000 10388 000002DCDCA7F6C0 INFO         d3d11debuglayer gstd3d11memory.cpp:924:create_render_target_views:<d3d11device2> D3D11InfoQueue: Create ID3D11RenderTargetView: Name="unnamed", Addr=0x000002DCFF46B750, ExtRef=1, IntRef=0
+0:00:25.265084000 10388 000002DCDCA7F6C0 LOG              d3d11window gstd3d11window.cpp:397:gst_d3d11_window_on_resize_default:<d3d11windowwin32-20> New client area 1912x1061, render rect x: 13, y: 0, 1886x1061
+0:00:25.265373000 10388 000002DCDCA7F6C0 INFO         d3d11debuglayer gstd3d11memory.cpp:1232:gst_d3d11_memory_ensure_processor_output_view:<d3d11device2> D3D11InfoQueue: Create ID3D11VideoProcessorOutputView: Name="unnamed", Addr=0x000002DCFF4F5290, ExtRef=1, IntRef=0
+0:00:25.323520000 10388 000002DCDCA7F6C0 WARN             d3d11window gstd3d11window_win32.cpp:1079:gst_d3d11_window_win32_present: D3D11 call failed: 0x887a0005, The GPU device instance has been suspended. Use GetDeviceRemovedReason to determine the appropriate action.
+0:00:25.324161000 10388 000002DCDCA7F6C0 INFO         d3d11debuglayer gstd3d11window_win32.cpp:1079:gst_d3d11_window_win32_present:<d3d11device2> D3D11InfoQueue: ID3D11Device::RemoveDevice: Device removal has ben triggered for the following reason (DXGI_ERROR_DEVICE_RESET: The hardware took an unreasonable amount of time to execute a command on a different Device Context, or the hardware crashed/hung. As a result, the TDR (Timeout Detection and Recovery) mechanism has been triggered. The current Device Context was NOT executing commands when the hang occurred. However, the current video memory and Device Context could not be completely recovered. The application may want to just respawn itself, as the other application may no longer be around to cause this again).
+0:00:25.324839000 10388 000002DCDCA7F6C0 WARN             d3d11window gstd3d11window_win32.cpp:1081:gst_d3d11_window_win32_present:<d3d11windowwin32-20> Direct3D cannot present texture, hr: 0x887a0005
+0:00:25.325657000 10388 000002DCD2E7E9C0 LOG           d3d11allocator gstd3d11memory.cpp:2057:gst_d3d11_pool_allocator_release_memory:<d3d11poolallocator140> Released memory 000002DCE34F61B0
+0:00:25.326165000 10388 000002DCD2E7E9C0 WARN          d3d11allocator gstd3d11memory.cpp:1156:gst_d3d11_memory_ensure_processor_input_view: D3D11 call failed: 0x80070057, The parameter is incorrect.
+0:00:25.326616000 10388 000002DCD2E7E9C0 ERROR        d3d11debuglayer gstd3d11memory.cpp:1156:gst_d3d11_memory_ensure_processor_input_view:<d3d11device2> D3D11InfoQueue: ID3D11DeviceContext::CreateVideoProcessorInputView: Format 103 not supported for video processor input views!
+0:00:25.327045000 10388 000002DCD2E7E9C0 ERROR         d3d11allocator gstd3d11memory.cpp:1158:gst_d3d11_memory_ensure_processor_input_view:<d3d11poolallocator140> Could not create processor input view, hr: 0x80070057
+0:00:25.327544000 10388 000002DCD2E7E9C0 ERROR         d3d11converter gstd3d11converter.cpp:4020:gst_d3d11_converter_do_processor_blt:<d3d11converter14> PIV is unavailable
+0:00:25.327996000 10388 000002DCD2E7E9C0 ERROR            d3d11window gstd3d11window.cpp:944:gst_d3d111_window_present:<d3d11windowwin32-14> Couldn't render buffer
+0:00:25.328589000 10388 000002DCD2FE3500 LOG             d3d11decoder gstd3d11decoder.cpp:1112:gst_d3d11_decoder_begin_frame:<d3d11decoder16> Try begin frame, retry count 0
+0:00:25.329022000 10388 000002DCD2FE3500 LOG             d3d11decoder gstd3d11decoder.cpp:1125:gst_d3d11_decoder_begin_frame:<d3d11decoder16> Succeeded with retry count 0
+0:00:25.329702000 10388 000002DCD2E7E940 LOG           d3d11allocator gstd3d11memory.cpp:2057:gst_d3d11_pool_allocator_release_memory:<d3d11poolallocator133> Released memory 000002DCE34FB740
+0:00:25.329719000 10388 000002DCD2FE3500 LOG           d3d11allocator gstd3d11memory.cpp:2161:gst_d3d11_pool_allocator_acquire_memory_internal:<d3d11poolallocator134> acquired memory 000002DCE34FB530
+0:00:25.330818000 10388 000002DCD2FE3500 LOG             d3d11h264dec gstd3d11h264dec.cpp:492:gst_d3d11_h264_dec_new_picture:<d3d11h264dec4> New output view buffer buffer: 000002DCE3735120, pts 99:99:99.999999999, dts 99:99:99.999999999, dur 99:99:99.999999999, size 3133440, offset none, offset_end none, flags 0x0
+0:00:25.331151000 10388 000002DCD2FE3500 LOG             d3d11h264dec gstd3d11h264dec.cpp:497:gst_d3d11_h264_dec_new_picture:<d3d11h264dec4> New h264picture 000002DCE35C9250
+0:00:25.330225000 10388 000002DCD2E7E940 WARN          d3d11allocator gstd3d11memory.cpp:1156:gst_d3d11_memory_ensure_processor_input_view: D3D11 call failed: 0x80070057, The parameter is incorrect.
+0:00:25.331428000 10388 000002DCD2FE3500 LOG             d3d11h264dec gstd3d11h264dec.cpp:823:gst_d3d11_h264_dec_end_picture:<d3d11h264dec4> end picture 000002DCE35C9250, (poc 22)
+0:00:25.331636000 10388 000002DCD2E7E940 ERROR        d3d11debuglayer gstd3d11memory.cpp:1156:gst_d3d11_memory_ensure_processor_input_view:<d3d11device2> D3D11InfoQueue: ID3D11DeviceContext::CreateVideoProcessorInputView: Format 103 not supported for video processor input views!
+0:00:25.332098000 10388 000002DCD2E7E940 ERROR         d3d11allocator gstd3d11memory.cpp:1158:gst_d3d11_memory_ensure_processor_input_view:<d3d11poolallocator133> Could not create processor input view, 0:00:25.264560000 10388 000002DCDCA7F6C0 INFO         d3d11debuglayer gstd3d11window.cpp:315:gst_d3d11_window_on_resize_default:<d3d11device2> D3D11InfoQueue: Create ID3D11Fence: Name="unnamed",
+Addr=0x000002DCF23956A0, ExtRef=1, IntRef=0
+0:00:25.264855000 10388 000002DCDCA7F6C0 INFO         d3d11debuglayer gstd3d11memory.cpp:924:create_render_target_views:<d3d11device2> D3D11InfoQueue: Create ID3D11RenderTargetView: Name="unnamed",
+Addr=0x000002DCFF46B750, ExtRef=1, IntRef=0
+0:00:25.265084000 10388 000002DCDCA7F6C0 LOG              d3d11window gstd3d11window.cpp:397:gst_d3d11_window_on_resize_default:<d3d11windowwin32-20> New client area 1912x1061, render rect x: 13, y: 0,
+1886x1061
+0:00:25.265373000 10388 000002DCDCA7F6C0 INFO         d3d11debuglayer gstd3d11memory.cpp:1232:gst_d3d11_memory_ensure_processor_output_view:<d3d11device2> D3D11InfoQueue: Create
+ID3D11VideoProcessorOutputView: Name="unnamed", Addr=0x000002DCFF4F5290, ExtRef=1, IntRef=0
+0:00:25.323520000 10388 000002DCDCA7F6C0 WARN             d3d11window gstd3d11window_win32.cpp:1079:gst_d3d11_window_win32_present: D3D11 call failed: 0x887a0005, The GPU device instance has been
+suspended. Use GetDeviceRemovedReason to determine the appropriate action.
+0:00:25.324161000 10388 000002DCDCA7F6C0 INFO         d3d11debuglayer gstd3d11window_win32.cpp:1079:gst_d3d11_window_win32_present:<d3d11device2> D3D11InfoQueue: ID3D11Device::RemoveDevice: Device
+removal has been triggered for the following reason (DXGI_ERROR_DEVICE_RESET: The hardware took an unreasonable amount of time to execute a command on a different Device Context, or the hardware
+crashed/hung. As a result, the TDR (Timeout Detection and Recovery) mechanism has been triggered. The current Device Context was NOT executing commands when the hang occurred. However, the current
+video memory and Device Context could not be completely recovered. The application may want to just respawn itself, as the other application may no longer be around to cause this again).
+0:00:25.324839000 10388 000002DCDCA7F6C0 WARN             d3d11window gstd3d11window_win32.cpp:1081:gst_d3d11_window_win32_present:<d3d11windowwin32-20> Direct3D cannot present texture, hr: 0x887a0005
+0:00:25.325657000 10388 000002DCD2E7E9C0 LOG           d3d11allocator gstd3d11memory.cpp:2057:gst_d3d11_pool_allocator_release_memory:<d3d11poolallocator140> Released memory 000002DCE34F61B0
+0:00:25.326165000 10388 000002DCD2E7E9C0 WARN          d3d11allocator gstd3d11memory.cpp:1156:gst_d3d11_memory_ensure_processor_input_view: D3D11 call failed: 0x80070057, The parameter is incorrect.
+0:00:25.326616000 10388 000002DCD2E7E9C0 ERROR        d3d11debuglayer gstd3d11memory.cpp:1156:gst_d3d11_memory_ensure_processor_input_view:<d3d11device2> D3D11InfoQueue:
+ID3D11DeviceContext::CreateVideoProcessorInputView: Format 103 not supported for video processor input views!
+0:00:25.327045000 10388 000002DCD2E7E9C0 ERROR         d3d11allocator gstd3d11memory.cpp:1158:gst_d3d11_memory_ensure_processor_input_view:<d3d11poolallocator140> Could not create processor input view,
+hr: 0x80070057
+0:00:25.327544000 10388 000002DCD2E7E9C0 ERROR         d3d11converter gstd3d11converter.cpp:4020:gst_d3d11_converter_do_processor_blt:<d3d11converter14> PIV is unavailable
+0:00:25.327996000 10388 000002DCD2E7E9C0 ERROR            d3d11window gstd3d11window.cpp:944:gst_d3d111_window_present:<d3d11windowwin32-14> Couldn't render buffer
+0:00:25.328589000 10388 000002DCD2FE3500 LOG             d3d11decoder gstd3d11decoder.cpp:1112:gst_d3d11_decoder_begin_frame:<d3d11decoder16> Try begin frame, retry count 0
+0:00:25.329022000 10388 000002DCD2FE3500 LOG             d3d11decoder gstd3d11decoder.cpp:1125:gst_d3d11_decoder_begin_frame:<d3d11decoder16> Succeeded with retry count 0
+0:00:25.329702000 10388 000002DCD2E7E940 LOG           d3d11allocator gstd3d11memory.cpp:2057:gst_d3d11_pool_allocator_release_memory:<d3d11poolallocator133> Released memory 000002DCE34FB740
+0:00:25.329719000 10388 000002DCD2FE3500 LOG           d3d11allocator gstd3d11memory.cpp:2161:gst_d3d11_pool_allocator_acquire_memory_internal:<d3d11poolallocator134> acquired memory 000002DCE34FB530
+0:00:25.330818000 10388 000002DCD2FE3500 LOG             d3d11h264dec gstd3d11h264dec.cpp:492:gst_d3d11_h264_dec_new_picture:<d3d11h264dec4> New output view buffer buffer: 000002DCE3735120, pts
+99:99:99.999999999, dts 99:99:99.999999999, dur 99:99:99.999999999, size 3133440, offset none, offset_end none, flags 0x0
+0:00:25.331151000 10388 000002DCD2FE3500 LOG             d3d11h264dec gstd3d11h264dec.cpp:497:gst_d3d11_h264_dec_new_picture:<d3d11h264dec4> New h264picture 000002DCE35C9250
+0:00:25.330225000 10388 000002DCD2E7E940 WARN          d3d11allocator gstd3d11memory.cpp:1156:gst_d3d11_memory_ensure_processor_input_view: D3D11 call failed: 0x80070057, The parameter is incorrect.
+0:00:25.331428000 10388 000002DCD2FE3500 LOG             d3d11h264dec gstd3d11h264dec.cpp:823:gst_d3d11_h264_dec_end_picture:<d3d11h264dec4> end picture 000002DCE35C9250, (poc 22)
+0:00:25.331636000 10388 000002DCD2E7E940 ERROR        d3d11debuglayer gstd3d11memory.cpp:1156:gst_d3d11_memory_ensure_processor_input_view:<d3d11device2> D3D11InfoQueue:
+ID3D11DeviceContext::CreateVideoProcessorInputView: Format 103 not supported for video processor input views!
+0:00:25.332098000 10388 000002DCD2E7E940 ERROR         d3d11allocator gstd3d11memory.cpp:1158:gst_d3d11_memory_ensure_processor_input_view:<d3d11poolallocator133> Could not create processor input view,
+hr: 0x80070057
+0:00:25.332312000 10388 000002DCD2E7E940 ERROR         d3d11converter gstd3d11converter.cpp:4020:gst_d3d11_converter_do_processor_blt:<d3d11converter8> PIV is unavailable
+0:00:25.332522000 10388 000002DCD2E7E940 ERROR            d3d11window gstd3d11window.cpp:944:gst_d3d111_window_present:<d3d11windowwin32-8> Couldn't render buffer
+0:00:25.332743000 10388 000002DCD2FE3480 LOG             d3d11decoder gstd3d11decoder.cpp:1112:gst_d3d11_decoder_begin_frame:<d3d11decoder18> Try begin frame, retry count 0
+0:00:25.332967000 10388 000002DCD2FE3480 LOG             d3d11decoder gstd3d11decoder.cpp:1125:gst_d3d11_decoder_begin_frame:<d3d11decoder18> Succeeded with retry count 0hr: 0x80070057
+0:00:25.332312000 10388 000002DCD2E7E940 ERROR         d3d11converter gstd3d11converter.cpp:4020:gst_d3d11_converter_do_processor_blt:<d3d11converter8> PIV is unavailable
+0:00:25.332522000 10388 000002DCD2E7E940 ERROR            d3d11window gstd3d11window.cpp:944:gst_d3d111_window_present:<d3d11windowwin32-8> Couldn't render buffer
+0:00:25.332743000 10388 000002DCD2FE3480 LOG             d3d11decoder gstd3d11decoder.cpp:1112:gst_d3d11_decoder_begin_frame:<d3d11decoder18> Try begin frame, retry count 0
+0:00:25.332967000 10388 000002DCD2FE3480 LOG             d3d11decoder gstd3d11decoder.cpp:1125:gst_d3d11_decoder_begin_frame:<d3d11decoder18> Succeeded with retry count 0

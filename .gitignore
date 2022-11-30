@@ -1,0 +1,11 @@
+*dmg
+*pyc
+*msi
+*pkg
+.DS_Store
+*.wbc
+*pkg.sha1
+*pkg.dsa
+*.swp
+*.swo
+.vscode

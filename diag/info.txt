@@ -1,0 +1,3 @@
+c:\> systeminfo
+c:\> powershell Get-WmiObject win32_VideoController 
+c:\> dxdiag /x <output file>
